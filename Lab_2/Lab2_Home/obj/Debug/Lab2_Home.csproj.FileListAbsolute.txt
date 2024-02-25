@@ -1,0 +1,15 @@
+D:\Workspace\4th Semester\Database (DB)\Lab\Lab_2\Lab2_Home\bin\Debug\Lab2_Home.exe.config
+D:\Workspace\4th Semester\Database (DB)\Lab\Lab_2\Lab2_Home\bin\Debug\Lab2_Home.exe
+D:\Workspace\4th Semester\Database (DB)\Lab\Lab_2\Lab2_Home\bin\Debug\Lab2_Home.pdb
+D:\Workspace\4th Semester\Database (DB)\Lab\Lab_2\Lab2_Home\obj\Debug\Lab2_Home.csproj.AssemblyReference.cache
+D:\Workspace\4th Semester\Database (DB)\Lab\Lab_2\Lab2_Home\obj\Debug\Lab2_Home.Form1.resources
+D:\Workspace\4th Semester\Database (DB)\Lab\Lab_2\Lab2_Home\obj\Debug\Lab2_Home.Properties.Resources.resources
+D:\Workspace\4th Semester\Database (DB)\Lab\Lab_2\Lab2_Home\obj\Debug\Lab2_Home.csproj.GenerateResource.cache
+D:\Workspace\4th Semester\Database (DB)\Lab\Lab_2\Lab2_Home\obj\Debug\Lab2_Home.csproj.CoreCompileInputs.cache
+D:\Workspace\4th Semester\Database (DB)\Lab\Lab_2\Lab2_Home\obj\Debug\Lab2_Home.exe
+D:\Workspace\4th Semester\Database (DB)\Lab\Lab_2\Lab2_Home\obj\Debug\Lab2_Home.pdb
+D:\Workspace\4th Semester\Database (DB)\Lab\Lab_2\Lab2_Home\obj\Debug\Lab2_Home.Form2.resources
+D:\Workspace\4th Semester\Database (DB)\Lab\Lab_2\Lab2_Home\obj\Debug\Lab2_Home.Form3.resources
+D:\Workspace\4th Semester\Database (DB)\Lab\Lab_2\Lab2_Home\obj\Debug\Lab2_Home.Course.resources
+D:\Workspace\4th Semester\Database (DB)\Lab\Lab_2\Lab2_Home\obj\Debug\Lab2_Home.Student.resources
+D:\Workspace\4th Semester\Database (DB)\Lab\Lab_2\Lab2_Home\obj\Debug\Lab2_Home.Result.resources
