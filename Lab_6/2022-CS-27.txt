@@ -1,0 +1,62 @@
+Q1
+select Customers.CustomerID, Orders.OrderID, OrderDate from Customers left join Orders on Customers.CustomerID=Orders.CustomerID
+***
+
+
+Q2
+select Customers.CustomerID, Orders.OrderID, OrderDate from Customers left join Orders on Customers.CustomerID=Orders.CustomerID where OrderID is null
+***
+
+
+Q3
+select Customers.CustomerID, Orders.OrderID, OrderDate from Customers left join Orders on Customers.CustomerID=Orders.CustomerID where OrderDate between '1996-07-01' AND '1996-07-31'
+***
+
+
+Q4
+select Customers.CustomerID, count(OrderID) as totalorders from Customers left join Orders on Customers.CustomerID=Orders.CustomerID group by Customers.CustomerID
+***
+
+
+Q5
+select EmployeeID, FirstName, LastName from Employees union all select EmployeeID, FirstName, LastName from Employees union all select EmployeeID, FirstName, LastName from Employees union all select EmployeeID, FirstName, LastName from Employees union all select EmployeeID, FirstName, LastName from Employees
+***
+
+
+Q6
+select * from Products where UnitPrice > (select avg(UnitPrice) from Products)
+
+
+
+Q7
+select max(UnitPrice) as secondHighest from Products where UnitPrice < (select max(UnitPrice) from Products)
+***
+
+
+Q8
+select EmployeeID, BirthDate from Employees where BirthDate between '1996-07-04' and '1997-08-04'
+***
+
+
+Q9
+select Customers.CustomerID, count(Orders.OrderID) as Totalorders, sum(Quantity) as totalquantity from Customers left join Orders on Customers.CustomerID=Orders.CustomerID join [Order Details] on Orders.OrderID=[Order Details].OrderID where Country='USA' group by Customers.CustomerID
+***
+
+
+Q10
+select Customers.CustomerID, CompanyName, OrderID, OrderDate from Customers left join Orders on Customers.CustomerID=Orders.CustomerID where OrderDate='1997-07-04'
+***
+
+
+Q13
+select ProductName, OrderDate from Products join [Order Details] on Products.ProductID=[Order Details].ProductID join Orders on [Order Details].OrderID=Orders.OrderID where OrderDate='1997-08-08'
+***
+
+
+Q14
+select ShipAddress, ShipCity, ShipCountry from Orders join Employees on Orders.EmployeeID=Employees.EmployeeID where Employees.FirstName='Anne' AND RequiredDate<ShippedDate
+***
+
+
+Q15
+select ShipCountry from Orders join [Order Details] on Orders.OrderID=[Order Details].OrderID join Products on [Order Details].ProductID=Products.ProductID join Categories on Products.CategoryID=Categories.CategoryID where CategoryName='beverages'
